@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table border="1">
+        <tr bgcolor="seagreen">
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>Brad Tarversy</td>
+            <th>Computer Science</th>
+            <th>9190189990</th>
+        </tr>
+
+        <tr>
+            <td>1003</td>
+            <td>Bucky North</td>
+            <th>Electricals</th>
+            <th>8901234675</th>
+        </tr>
+
+        <tr>
+            <td>1004</td>
+            <td>Brad Pitt</td>
+            <th>Mechanical</th>
+            <th>9190189090</th>
+        </tr>
+
+        <tr>
+            <td>1005</td>
+            <td>Leonardo Dicaprio</td>
+            <th>Electronics</th>
+            <th>91678994757</th>
+        </tr>
+    </table>
+    <!---Row span & Column Span demo--Merging of rows & columns-->
+    <h1>Employee Information</h1>
+    <table border="2" cellpadding="15" cellspacing="5">
+        <tr bgcolor="yellow">
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th colspan="2">Technologies</th>
+        </tr>
+        <tr>
+            <td>90123</td>
+            <td>Tarversy</td>
+            <td colspan="2">Spring Framework</td>
+        </tr>
+        <tr>
+            <td>901234</td>
+            <td>Joaana</td>
+            <td colspan="2">Angular Framework</td>
+        </tr>
+        <tr>
+            <td>901236</td>
+            <td>Chole</td>
+            <td>JPA</td>
+            <td>Hibernate</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> 9012345</td>
+            <td rowspan="2"> Alex</td>
+            <td colspan="2">JavaScript</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">JQuery</td>
+        </tr>
+    </table>
+</body>
+</html>

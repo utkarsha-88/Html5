@@ -1,0 +1,12 @@
+/* this is an external stylesheet*/
+body{
+    background-color:cadetblue;
+    font-size: larger;
+    font-family: 'Courier New';
+}
+h1{
+    color: chartreuse;
+}
+p{
+    color: cyan;
+}
